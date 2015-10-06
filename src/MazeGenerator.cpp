@@ -31,7 +31,7 @@ MazeGenerator::Create(const int width, const int height,
 // By default, the maze is filled with wall tiles,
 // so that the path can be carved through it.
 void MazeGenerator::InitializeTiles(int width, int height,
-									int resolutionWidth, int resolutionHeight)
+				    int resolutionWidth, int resolutionHeight)
 {
 	tiles = Matrix<Tile>(width, height);
 	this->width = width;
