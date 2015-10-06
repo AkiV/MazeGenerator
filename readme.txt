@@ -1,2 +1,1 @@
-A program that generates and solves a random maze every time it is run. It also features a simple player 
-to move around in the maze and being able to go to the next level. Made as an excercise to brush up modern C++.
+A program that generates and solves a random maze every time it is run. It also features a simple player to move around in the maze and being able to go to the next level. Made as an excercise to brush up modern C++.
