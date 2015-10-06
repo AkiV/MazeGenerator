@@ -12,7 +12,7 @@ class Maze : public sf::Drawable
 			std::vector<sf::Vertex>& wallVertices, 
 			sf::Vector2i startPosition) : tiles(tiles), 
 			                              wallVertices(wallVertices),
-										  startPosition(startPosition) { }
+						      startPosition(startPosition) { }
 
 		bool HasTileAt(int gridX, int gridY, TileType type);
 		sf::Vector2i GetStartPosition() const { return startPosition; }
