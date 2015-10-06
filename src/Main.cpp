@@ -14,7 +14,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR szCmdLine
 	std::shared_ptr<Maze> maze = mazeGenerator.Create(size, size, width, height);
 
 	sf::Vector2f playerSize = { static_cast<float>(width) / size, 
-		                        static_cast<float>(height) / size };
+		                    static_cast<float>(height) / size };
 
 	Player player(playerSize, maze);
 	player.GotoStart();
