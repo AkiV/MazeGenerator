@@ -1,9 +1,8 @@
 #include "Application.h"
 
 Application::Application(int width, int height) : window(sf::VideoMode(width, height), "Maze Generator",
-												  sf::Style::Default, sf::ContextSettings(0, 0, 4, 3, 0)),
-												  width(width),
-												  height(height)
+						         sf::Style::Default, sf::ContextSettings(0, 0, 4, 3, 0)),
+							 width(width), height(height)
 {
 	window.setFramerateLimit(24);
 }
